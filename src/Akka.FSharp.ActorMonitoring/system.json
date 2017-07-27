@@ -1,0 +1,18 @@
+﻿{
+  "akka": {
+    "stdout-loglevel": "DEBUG",
+    "loglevel": "DEBUG",
+    "log-config-on-start": "on",
+    "actor": {
+      "debug": {
+        "autoreceive": "on",
+        "lifecycle": "on",
+        "unhandled": "on",
+        "router-misconfiguration": "on"
+      }
+    },
+    "loggers": [
+      "Akka.Event.StandardOutLogger, Akka"
+    ]
+  }
+}
